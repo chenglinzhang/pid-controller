@@ -62,6 +62,8 @@ int main(int argc, char** argv)
           double angle = std::stod(j[1]["steering_angle"].get<std::string>());
           double steer_value = -0.01;
           double throttle_value = 0.3;
+          double speed_limit = 65; // e.g., from signs
+
           /*
           * TODO: Calcuate steering value here, remember the steering value is
           * [-1, 1].
@@ -91,7 +93,7 @@ int main(int argc, char** argv)
 
           // 3. throttle
           // dynamic target speed
-          double target_speed = 65 * (1.0 - fabs(steer_value));
+          double target_speed = speed_limit * (1.0 - fabs(steer_value));
           double speed_cte = speed - target_speed;
           pid_throttle.UpdateError(speed_cte);
           throttle_value = pid_throttle.TotalError();
