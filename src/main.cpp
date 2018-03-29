@@ -41,7 +41,7 @@ int main(int argc, char** argv)
   pid_throttle.Init(0.1, 0.0006, 0.75);
 
   bool twiddle = false;
-  if (argc > 1 && strcmp(argv[1], "twiddle") == 0) {
+  if (argc > 1 && strcmp(argv[1], "--twiddle") == 0) {
     twiddle = true;
   }
 

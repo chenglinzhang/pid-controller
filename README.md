@@ -49,7 +49,7 @@ PID controller is dynamic and responsive. In additon to the stability problem il
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./pid [twiddle]`. 
+4. Run it: `./pid [--twiddle]`. 
 ```
 
 ### Dependencies
