@@ -13,7 +13,7 @@ One more thing. The speed limit has been increased from 30 mph to 100 mph. Get r
 
 I started off with the default driving speed of 30 mph. The final program achieves the max driving speed of 100 mph. The following demo shows a max driving speed of 65 mph:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xP5Y3oW2rjQ/0.jpg)](https://www.youtube.com/watch?v=xP5Y3oW2rjQ)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HGbhvGvlKnc/0.jpg)](https://www.youtube.com/watch?v=HGbhvGvlKnc)
 
 
 ### Reflections
