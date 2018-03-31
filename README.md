@@ -1,4 +1,4 @@
-## 2. PID Controller Project
+## 4. PID Controller Project
 
 ### Self-Driving Car Engineer Nanodegree Program - Term 2
 
