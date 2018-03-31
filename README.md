@@ -24,11 +24,11 @@ A Proportional–Integral–Derivative controller (PID controller) is a control 
 
 PID controls car steering or speed by minimizing total errors from three component gains: proportional, derivative, and integral, in the following:
 ```
-  total_error = -Kp * p_error - Kd * d_error - Ki * i_error;
+  total_error = - Kp*p_error - Kd*d_error - Ki*i_error;
 ``` 
 where total_error is the target to minimize in every moment, p_error is for proportional, d_error for derivative, and i_error for inegral, and Kp, Kd, and Ki are respective coefficients. 
 
-Propotional component Kp * p_error is the error we want to correct in every mement. Derivative component Kd * d_error adds resistance to the correction to make the drive more stable and not to oscillate across the target line. Integral component Ki * i_error adds control to minimise accumulated errors and pulls the car out of drifts parallel to the target line and helps to move the car to the target line faster. 
+Propotional component Kp*p_error is the error we want to correct in every moment. Derivative component Kd*d_error adds resistance to the correction to make the drive more stable and not to oscillate across the target line. Integral component Ki*i_error adds control to minimise accumulated errors and pulls the car out of drifts parallel to the target line and helps to move the car to the target line faster. 
 
 An excellent video that demostrates how the proportional, integral, and derivative gains affect the performance of a vehicle can be found at https://www.youtube.com/watch?v=4Y7zG48uHRo.
 
